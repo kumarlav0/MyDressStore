@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="gTV-IL-0wX" customClass="ProductCell" customModule="FyndStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="167"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="167"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSF-1i-8mp">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="160"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jacket" translatesAutoresizingMaskIntoConstraints="NO" id="Btp-zU-Y5y">
+                                <rect key="frame" x="0.0" y="6" width="183" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="KTS-oS-awU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lather Jacket" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgQ-QZ-brq">
+                                <rect key="frame" x="8" y="111" width="167" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbw-dh-Tdx">
+                                <rect key="frame" x="8" y="134" width="167" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OgQ-QZ-brq" firstAttribute="top" secondItem="Btp-zU-Y5y" secondAttribute="bottom" constant="5" id="04h-Ni-86s"/>
+                            <constraint firstAttribute="height" constant="160" id="DcB-SJ-jzl"/>
+                            <constraint firstItem="Btp-zU-Y5y" firstAttribute="leading" secondItem="bSF-1i-8mp" secondAttribute="leading" id="HIG-tl-H6U"/>
+                            <constraint firstItem="Btp-zU-Y5y" firstAttribute="top" secondItem="bSF-1i-8mp" secondAttribute="top" constant="6" id="Qai-Ln-5hX"/>
+                            <constraint firstAttribute="trailing" secondItem="wbw-dh-Tdx" secondAttribute="trailing" constant="8" id="b71-8r-ex8"/>
+                            <constraint firstAttribute="trailing" secondItem="Btp-zU-Y5y" secondAttribute="trailing" id="cjf-u2-qW7"/>
+                            <constraint firstItem="wbw-dh-Tdx" firstAttribute="top" secondItem="OgQ-QZ-brq" secondAttribute="bottom" constant="5" id="iqT-ub-AOJ"/>
+                            <constraint firstItem="OgQ-QZ-brq" firstAttribute="leading" secondItem="bSF-1i-8mp" secondAttribute="leading" constant="8" id="nVY-nZ-D6c"/>
+                            <constraint firstItem="wbw-dh-Tdx" firstAttribute="leading" secondItem="bSF-1i-8mp" secondAttribute="leading" constant="8" id="qSs-vz-6er"/>
+                            <constraint firstAttribute="trailing" secondItem="OgQ-QZ-brq" secondAttribute="trailing" constant="8" id="ype-Ds-lr0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bSF-1i-8mp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TPw-kh-S9g"/>
+                <constraint firstItem="bSF-1i-8mp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="U8f-8E-hJN"/>
+                <constraint firstAttribute="trailing" secondItem="bSF-1i-8mp" secondAttribute="trailing" id="jNP-FA-Zxy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="183" height="167"/>
+            <connections>
+                <outlet property="productCostLabel" destination="wbw-dh-Tdx" id="FzF-2B-6A4"/>
+                <outlet property="productImgView" destination="Btp-zU-Y5y" id="KXz-NP-c8P"/>
+                <outlet property="productNameLabel" destination="OgQ-QZ-brq" id="29h-MQ-nad"/>
+            </connections>
+            <point key="canvasLocation" x="9.4202898550724647" y="106.13839285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="jacket" width="2258" height="2904"/>
+    </resources>
+</document>
