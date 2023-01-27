@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04931CE529842A4C00FE81F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE429842A4C00FE81F0 /* AppDelegate.swift */; };
+		04931CE729842A4C00FE81F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE629842A4C00FE81F0 /* SceneDelegate.swift */; };
+		04931CE929842A4C00FE81F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE829842A4C00FE81F0 /* ViewController.swift */; };
+		04931CEC29842A4C00FE81F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04931CEA29842A4C00FE81F0 /* Main.storyboard */; };
+		04931CEF29842A4C00FE81F0 /* Toga_Store.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04931CED29842A4C00FE81F0 /* Toga_Store.xcdatamodeld */; };
+		04931CF129842A4F00FE81F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04931CF029842A4F00FE81F0 /* Assets.xcassets */; };
+		04931CF429842A4F00FE81F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04931CF229842A4F00FE81F0 /* LaunchScreen.storyboard */; };
+		04931CFF29842A4F00FE81F0 /* Toga_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CFE29842A4F00FE81F0 /* Toga_StoreTests.swift */; };
+		04931D0929842A4F00FE81F0 /* Toga_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D0829842A4F00FE81F0 /* Toga_StoreUITests.swift */; };
+		04931D0B29842A4F00FE81F0 /* Toga_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D0A29842A4F00FE81F0 /* Toga_StoreUITestsLaunchTests.swift */; };
+		04931D1E29842ADF00FE81F0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D1929842ADF00FE81F0 /* ProductCell.swift */; };
+		04931D1F29842ADF00FE81F0 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04931D1A29842ADF00FE81F0 /* ProductCell.xib */; };
+		04931D2029842ADF00FE81F0 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D1C29842ADF00FE81F0 /* CategoryCell.swift */; };
+		04931D2129842ADF00FE81F0 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04931D1D29842ADF00FE81F0 /* CategoryCell.xib */; };
+		04931D2529842AFA00FE81F0 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D2329842AFA00FE81F0 /* CategoryModel.swift */; };
+		04931D2629842AFA00FE81F0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D2429842AFA00FE81F0 /* ProductModel.swift */; };
+		04931D2A29842B2900FE81F0 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D2829842B2900FE81F0 /* ProductsViewController.swift */; };
+		04931D2B29842B2900FE81F0 /* ProductImgDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D2929842B2900FE81F0 /* ProductImgDetailsViewController.swift */; };
+		04931D3029842C1F00FE81F0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04931D2F29842C1F00FE81F0 /* Kingfisher */; };
+		04931D3229842D0200FE81F0 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931D3129842D0200FE81F0 /* ProductListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04931CFB29842A4F00FE81F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04931CD929842A4C00FE81F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04931CE029842A4C00FE81F0;
+			remoteInfo = "Toga Store";
+		};
+		04931D0529842A4F00FE81F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04931CD929842A4C00FE81F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04931CE029842A4C00FE81F0;
+			remoteInfo = "Toga Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04931CE129842A4C00FE81F0 /* Toga Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toga Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04931CE429842A4C00FE81F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04931CE629842A4C00FE81F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04931CE829842A4C00FE81F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04931CEB29842A4C00FE81F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04931CEE29842A4C00FE81F0 /* Toga_Store.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toga_Store.xcdatamodel; sourceTree = "<group>"; };
+		04931CF029842A4F00FE81F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04931CF329842A4F00FE81F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04931CF529842A4F00FE81F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04931CFA29842A4F00FE81F0 /* Toga StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toga StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04931CFE29842A4F00FE81F0 /* Toga_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toga_StoreTests.swift; sourceTree = "<group>"; };
+		04931D0429842A4F00FE81F0 /* Toga StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toga StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04931D0829842A4F00FE81F0 /* Toga_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toga_StoreUITests.swift; sourceTree = "<group>"; };
+		04931D0A29842A4F00FE81F0 /* Toga_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toga_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04931D1929842ADF00FE81F0 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		04931D1A29842ADF00FE81F0 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		04931D1C29842ADF00FE81F0 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		04931D1D29842ADF00FE81F0 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		04931D2329842AFA00FE81F0 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		04931D2429842AFA00FE81F0 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		04931D2829842B2900FE81F0 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		04931D2929842B2900FE81F0 /* ProductImgDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductImgDetailsViewController.swift; sourceTree = "<group>"; };
+		04931D3129842D0200FE81F0 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04931CDE29842A4C00FE81F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04931D3029842C1F00FE81F0 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931CF729842A4F00FE81F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931D0129842A4F00FE81F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04931CD829842A4C00FE81F0 = {
+			isa = PBXGroup;
+			children = (
+				04931CE329842A4C00FE81F0 /* Toga Store */,
+				04931CFD29842A4F00FE81F0 /* Toga StoreTests */,
+				04931D0729842A4F00FE81F0 /* Toga StoreUITests */,
+				04931CE229842A4C00FE81F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04931CE229842A4C00FE81F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04931CE129842A4C00FE81F0 /* Toga Store.app */,
+				04931CFA29842A4F00FE81F0 /* Toga StoreTests.xctest */,
+				04931D0429842A4F00FE81F0 /* Toga StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04931CE329842A4C00FE81F0 /* Toga Store */ = {
+			isa = PBXGroup;
+			children = (
+				04931D2D29842B7F00FE81F0 /* ViewModel */,
+				04931CE429842A4C00FE81F0 /* AppDelegate.swift */,
+				04931CE629842A4C00FE81F0 /* SceneDelegate.swift */,
+				04931CE829842A4C00FE81F0 /* ViewController.swift */,
+				04931D2729842B2900FE81F0 /* Controller */,
+				04931D2229842AFA00FE81F0 /* Model */,
+				04931D1729842ADF00FE81F0 /* View */,
+				04931CEA29842A4C00FE81F0 /* Main.storyboard */,
+				04931CF029842A4F00FE81F0 /* Assets.xcassets */,
+				04931CF229842A4F00FE81F0 /* LaunchScreen.storyboard */,
+				04931CF529842A4F00FE81F0 /* Info.plist */,
+				04931CED29842A4C00FE81F0 /* Toga_Store.xcdatamodeld */,
+			);
+			path = "Toga Store";
+			sourceTree = "<group>";
+		};
+		04931CFD29842A4F00FE81F0 /* Toga StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				04931CFE29842A4F00FE81F0 /* Toga_StoreTests.swift */,
+			);
+			path = "Toga StoreTests";
+			sourceTree = "<group>";
+		};
+		04931D0729842A4F00FE81F0 /* Toga StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04931D0829842A4F00FE81F0 /* Toga_StoreUITests.swift */,
+				04931D0A29842A4F00FE81F0 /* Toga_StoreUITestsLaunchTests.swift */,
+			);
+			path = "Toga StoreUITests";
+			sourceTree = "<group>";
+		};
+		04931D1729842ADF00FE81F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04931D1829842ADF00FE81F0 /* Product cell */,
+				04931D1B29842ADF00FE81F0 /* Category cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04931D1829842ADF00FE81F0 /* Product cell */ = {
+			isa = PBXGroup;
+			children = (
+				04931D1929842ADF00FE81F0 /* ProductCell.swift */,
+				04931D1A29842ADF00FE81F0 /* ProductCell.xib */,
+			);
+			path = "Product cell";
+			sourceTree = "<group>";
+		};
+		04931D1B29842ADF00FE81F0 /* Category cell */ = {
+			isa = PBXGroup;
+			children = (
+				04931D1C29842ADF00FE81F0 /* CategoryCell.swift */,
+				04931D1D29842ADF00FE81F0 /* CategoryCell.xib */,
+			);
+			path = "Category cell";
+			sourceTree = "<group>";
+		};
+		04931D2229842AFA00FE81F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04931D2329842AFA00FE81F0 /* CategoryModel.swift */,
+				04931D2429842AFA00FE81F0 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04931D2729842B2900FE81F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04931D2829842B2900FE81F0 /* ProductsViewController.swift */,
+				04931D2929842B2900FE81F0 /* ProductImgDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04931D2D29842B7F00FE81F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04931D3129842D0200FE81F0 /* ProductListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04931CE029842A4C00FE81F0 /* Toga Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04931D0E29842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga Store" */;
+			buildPhases = (
+				04931CDD29842A4C00FE81F0 /* Sources */,
+				04931CDE29842A4C00FE81F0 /* Frameworks */,
+				04931CDF29842A4C00FE81F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toga Store";
+			packageProductDependencies = (
+				04931D2F29842C1F00FE81F0 /* Kingfisher */,
+			);
+			productName = "Toga Store";
+			productReference = 04931CE129842A4C00FE81F0 /* Toga Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04931CF929842A4F00FE81F0 /* Toga StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04931D1129842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga StoreTests" */;
+			buildPhases = (
+				04931CF629842A4F00FE81F0 /* Sources */,
+				04931CF729842A4F00FE81F0 /* Frameworks */,
+				04931CF829842A4F00FE81F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04931CFC29842A4F00FE81F0 /* PBXTargetDependency */,
+			);
+			name = "Toga StoreTests";
+			productName = "Toga StoreTests";
+			productReference = 04931CFA29842A4F00FE81F0 /* Toga StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04931D0329842A4F00FE81F0 /* Toga StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04931D1429842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga StoreUITests" */;
+			buildPhases = (
+				04931D0029842A4F00FE81F0 /* Sources */,
+				04931D0129842A4F00FE81F0 /* Frameworks */,
+				04931D0229842A4F00FE81F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04931D0629842A4F00FE81F0 /* PBXTargetDependency */,
+			);
+			name = "Toga StoreUITests";
+			productName = "Toga StoreUITests";
+			productReference = 04931D0429842A4F00FE81F0 /* Toga StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04931CD929842A4C00FE81F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04931CE029842A4C00FE81F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					04931CF929842A4F00FE81F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04931CE029842A4C00FE81F0;
+					};
+					04931D0329842A4F00FE81F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04931CE029842A4C00FE81F0;
+					};
+				};
+			};
+			buildConfigurationList = 04931CDC29842A4C00FE81F0 /* Build configuration list for PBXProject "Toga Store" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04931CD829842A4C00FE81F0;
+			packageReferences = (
+				04931D2E29842C1F00FE81F0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 04931CE229842A4C00FE81F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04931CE029842A4C00FE81F0 /* Toga Store */,
+				04931CF929842A4F00FE81F0 /* Toga StoreTests */,
+				04931D0329842A4F00FE81F0 /* Toga StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04931CDF29842A4C00FE81F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04931D2129842ADF00FE81F0 /* CategoryCell.xib in Resources */,
+				04931CF429842A4F00FE81F0 /* LaunchScreen.storyboard in Resources */,
+				04931D1F29842ADF00FE81F0 /* ProductCell.xib in Resources */,
+				04931CF129842A4F00FE81F0 /* Assets.xcassets in Resources */,
+				04931CEC29842A4C00FE81F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931CF829842A4F00FE81F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931D0229842A4F00FE81F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04931CDD29842A4C00FE81F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04931D3229842D0200FE81F0 /* ProductListViewModel.swift in Sources */,
+				04931CE929842A4C00FE81F0 /* ViewController.swift in Sources */,
+				04931D2B29842B2900FE81F0 /* ProductImgDetailsViewController.swift in Sources */,
+				04931CE529842A4C00FE81F0 /* AppDelegate.swift in Sources */,
+				04931D1E29842ADF00FE81F0 /* ProductCell.swift in Sources */,
+				04931CEF29842A4C00FE81F0 /* Toga_Store.xcdatamodeld in Sources */,
+				04931D2529842AFA00FE81F0 /* CategoryModel.swift in Sources */,
+				04931CE729842A4C00FE81F0 /* SceneDelegate.swift in Sources */,
+				04931D2029842ADF00FE81F0 /* CategoryCell.swift in Sources */,
+				04931D2629842AFA00FE81F0 /* ProductModel.swift in Sources */,
+				04931D2A29842B2900FE81F0 /* ProductsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931CF629842A4F00FE81F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04931CFF29842A4F00FE81F0 /* Toga_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04931D0029842A4F00FE81F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04931D0929842A4F00FE81F0 /* Toga_StoreUITests.swift in Sources */,
+				04931D0B29842A4F00FE81F0 /* Toga_StoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04931CFC29842A4F00FE81F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04931CE029842A4C00FE81F0 /* Toga Store */;
+			targetProxy = 04931CFB29842A4F00FE81F0 /* PBXContainerItemProxy */;
+		};
+		04931D0629842A4F00FE81F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04931CE029842A4C00FE81F0 /* Toga Store */;
+			targetProxy = 04931D0529842A4F00FE81F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04931CEA29842A4C00FE81F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04931CEB29842A4C00FE81F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04931CF229842A4F00FE81F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04931CF329842A4F00FE81F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04931D0C29842A4F00FE81F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04931D0D29842A4F00FE81F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04931D0F29842A4F00FE81F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toga Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04931D1029842A4F00FE81F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toga Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04931D1229842A4F00FE81F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toga Store.app/Toga Store";
+			};
+			name = Debug;
+		};
+		04931D1329842A4F00FE81F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toga Store.app/Toga Store";
+			};
+			name = Release;
+		};
+		04931D1529842A4F00FE81F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toga Store";
+			};
+			name = Debug;
+		};
+		04931D1629842A4F00FE81F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "togastore.com.Toga-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toga Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04931CDC29842A4C00FE81F0 /* Build configuration list for PBXProject "Toga Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04931D0C29842A4F00FE81F0 /* Debug */,
+				04931D0D29842A4F00FE81F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04931D0E29842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04931D0F29842A4F00FE81F0 /* Debug */,
+				04931D1029842A4F00FE81F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04931D1129842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04931D1229842A4F00FE81F0 /* Debug */,
+				04931D1329842A4F00FE81F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04931D1429842A4F00FE81F0 /* Build configuration list for PBXNativeTarget "Toga StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04931D1529842A4F00FE81F0 /* Debug */,
+				04931D1629842A4F00FE81F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04931D2E29842C1F00FE81F0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04931D2F29842C1F00FE81F0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04931D2E29842C1F00FE81F0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		04931CED29842A4C00FE81F0 /* Toga_Store.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04931CEE29842A4C00FE81F0 /* Toga_Store.xcdatamodel */,
+			);
+			currentVersion = 04931CEE29842A4C00FE81F0 /* Toga_Store.xcdatamodel */;
+			path = Toga_Store.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04931CD929842A4C00FE81F0 /* Project object */;
+}
