@@ -1,4 +1,4 @@
-# FyndTask
+# TogaStore
 
 Hey, here I have created a #TogaStore as a demo. 
 Having some cool features I hope It may help you in some way in your projects. You can watch the video attached to this post. 
