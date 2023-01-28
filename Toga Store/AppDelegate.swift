@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Toga Store
 //
-//  Kumar Lav on 27/01/23 mac on 27/01/23.
+//  Kumar Lav on 27/01/23.
 //
 
 import UIKit

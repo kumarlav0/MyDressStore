@@ -2,7 +2,7 @@
 //  Toga_StoreUITests.swift
 //  Toga StoreUITests
 //
-//  Kumar Lav on 27/01/23 mac on 27/01/23.
+//  Kumar Lav on 27/01/23.
 //
 
 import XCTest

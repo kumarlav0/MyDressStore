@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04931CE529842A4C00FE81F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE429842A4C00FE81F0 /* AppDelegate.swift */; };
 		04931CE729842A4C00FE81F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE629842A4C00FE81F0 /* SceneDelegate.swift */; };
-		04931CE929842A4C00FE81F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04931CE829842A4C00FE81F0 /* ViewController.swift */; };
 		04931CEC29842A4C00FE81F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04931CEA29842A4C00FE81F0 /* Main.storyboard */; };
 		04931CEF29842A4C00FE81F0 /* Toga_Store.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04931CED29842A4C00FE81F0 /* Toga_Store.xcdatamodeld */; };
 		04931CF129842A4F00FE81F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04931CF029842A4F00FE81F0 /* Assets.xcassets */; };
@@ -50,7 +49,6 @@
 		04931CE129842A4C00FE81F0 /* Toga Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toga Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04931CE429842A4C00FE81F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04931CE629842A4C00FE81F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04931CE829842A4C00FE81F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04931CEB29842A4C00FE81F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04931CEE29842A4C00FE81F0 /* Toga_Store.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toga_Store.xcdatamodel; sourceTree = "<group>"; };
 		04931CF029842A4F00FE81F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				04931D2D29842B7F00FE81F0 /* ViewModel */,
 				04931CE429842A4C00FE81F0 /* AppDelegate.swift */,
 				04931CE629842A4C00FE81F0 /* SceneDelegate.swift */,
-				04931CE829842A4C00FE81F0 /* ViewController.swift */,
 				04931D2729842B2900FE81F0 /* Controller */,
 				04931D2229842AFA00FE81F0 /* Model */,
 				04931D1729842ADF00FE81F0 /* View */,
@@ -347,7 +344,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04931D3229842D0200FE81F0 /* ProductListViewModel.swift in Sources */,
-				04931CE929842A4C00FE81F0 /* ViewController.swift in Sources */,
 				04931D2B29842B2900FE81F0 /* ProductImgDetailsViewController.swift in Sources */,
 				04931CE529842A4C00FE81F0 /* AppDelegate.swift in Sources */,
 				04931D1E29842ADF00FE81F0 /* ProductCell.swift in Sources */,
